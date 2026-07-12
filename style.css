@@ -54,22 +54,22 @@ body {
 .column {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 2.2rem;
 }
 
 /* --- LINK CARDS --- */
 .card {
     background-color: var(--card-bg);
     border: 1px solid var(--border-color);
-    border-radius: 8px;
-    padding: 1rem;
+    border-radius: 2px;
+    padding: .5rem;
     font-size: 16px;
 }
 
 .card h2 {
     font-size: 1.2rem;
-    font-weight: 500;
-    margin-bottom: 0.25rem;
+    font-weight: 600;
+    margin-bottom: 0.50rem;
     padding-bottom: 0.25rem;
     border-bottom: 1px solid var(--border-color);
 }
