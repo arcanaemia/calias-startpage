@@ -1,11 +1,11 @@
 /* --- COLOR PALETTE AND VARIABLES --- */
 :root {
-    --bg-color: #2e3440;       /* Dark overall page background */
-    --card-bg: #2e3440;        /* Background for link categories */
-    --text-main: #e5e9f0;      /* Category title and header color */
-    --text-link: #eceff4;      /* Default link color */
+    --bg-color: #1E2229;       /* Dark overall page background */
+    --card-bg: #1E2229;        /* Background for link categories */
+    --text-main: #A1AABA;      /* Category title and header color */
+    --text-link: #BCC2CD;      /* Default link color */
     --text-hover: #d8dee9;     /* Color when hovering over a link */
-    --border-color: #2e3440;   /* Subtle outline color */
+    --border-color: #454E5E;   /* Subtle outline color */
     
     --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
