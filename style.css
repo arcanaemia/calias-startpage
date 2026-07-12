@@ -25,7 +25,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 2rem 1rem 5rem 1rem; /* Padding at bottom leaves room for the nav bar */
+    padding: 3rem 1rem 5rem 1rem; /* Padding at bottom leaves room for the nav bar */
 }
 
 /* --- GRID LAYOUT --- */
