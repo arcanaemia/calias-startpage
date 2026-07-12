@@ -1,7 +1,7 @@
 /* --- COLOR PALETTE AND VARIABLES --- */
 :root {
-    --bg-color: #3b4252;       /* Dark overall page background */
-    --card-bg: #434c5e;        /* Background for link categories */
+    --bg-color: #2e3440;       /* Dark overall page background */
+    --card-bg: #3b4252;        /* Background for link categories */
     --text-main: #e5e9f0;      /* Category title and header color */
     --text-link: #eceff4;      /* Default link color */
     --text-hover: #d8dee9;     /* Color when hovering over a link */
