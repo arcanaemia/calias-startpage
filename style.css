@@ -1,6 +1,6 @@
 /* --- COLOR PALETTE AND VARIABLES --- */
 :root {
-    --bg-color: #343d46;       /* Dark overall page background */
+    --bg-color: #161f2b;       /* Dark overall page background */
     --card-bg: #161f2b;        /* Background for link categories */
     --text-main: #8fa1b3;      /* Category title and header color */
     --text-link: #94a3b8;      /* Default link color */
@@ -63,6 +63,7 @@ body {
     border: 1px solid var(--border-color);
     border-radius: 8px;
     padding: 1.25rem;
+    font-size: 16px;
 }
 
 .card h2 {
