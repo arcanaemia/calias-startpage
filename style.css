@@ -3,7 +3,7 @@
     --bg-color: #161f2b;       /* Dark overall page background */
     --card-bg: #161f2b;        /* Background for link categories */
     --text-main: #8fa1b3;      /* Category title and header color */
-    --text-link: #94a3b8;      /* Default link color */
+    --text-link: #a7adba;      /* Default link color */
     --text-hover: #38bdf8;     /* Color when hovering over a link */
     --border-color: #1e293b;   /* Subtle outline color */
     
@@ -67,7 +67,7 @@ body {
 }
 
 .card h2 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 0.75rem;
     padding-bottom: 0.5rem;
@@ -89,7 +89,7 @@ body {
 
 .links-list a:hover {
     color: var(--text-hover);
-    padding-left: 4px; /* Subtle nudge right on hover */
+    padding-left: 2px; /* Subtle nudge right on hover */
 }
 
 /* --- BOTTOM NAV BAR --- */
