@@ -1,0 +1,118 @@
+/* --- COLOR PALETTE AND VARIABLES --- */
+:root {
+    --bg-color: #2b303b;       /* Dark overall page background */
+    --card-bg: #161f2b;        /* Background for link categories */
+    --text-main: #8fa1b3;      /* Category title and header color */
+    --text-link: #94a3b8;      /* Default link color */
+    --text-hover: #38bdf8;     /* Color when hovering over a link */
+    --border-color: #1e293b;   /* Subtle outline color */
+    
+    --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* --- GENERAL RESET & SETUP --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: var(--font-family);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 1rem 5rem 1rem; /* Padding at bottom leaves room for the nav bar */
+}
+
+/* --- GRID LAYOUT --- */
+.grid-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+/* Stacks into columns on smaller screens */
+@media (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 550px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Column structure holding stacked cards */
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* --- LINK CARDS --- */
+.card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.25rem;
+}
+
+.card h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.links-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.links-list a {
+    color: var(--text-link);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s ease, padding-left 0.2s ease;
+}
+
+.links-list a:hover {
+    color: var(--text-hover);
+    padding-left: 4px; /* Subtle nudge right on hover */
+}
+
+/* --- BOTTOM NAV BAR --- */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--card-bg);
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.bottom-nav a {
+    color: var(--text-link);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.bottom-nav a:hover, 
+.bottom-nav a.active {
+    color: var(--text-hover);
+}
