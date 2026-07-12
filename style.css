@@ -60,7 +60,7 @@ body {
 /* --- LINK CARDS --- */
 .card {
     background-color: var(--card-bg);
-    border: 1px solid var(--border-color);
+    border: 0px solid var(--border-color);
     border-radius: 2px;
     padding: 0.5rem;
     font-size: 16px;
