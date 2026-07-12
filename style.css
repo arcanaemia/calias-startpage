@@ -4,7 +4,7 @@
     --card-bg: #434c5e;        /* Background for link categories */
     --text-main: #e5e9f0;      /* Category title and header color */
     --text-link: #eceff4;      /* Default link color */
-    --text-hover: #d8dee9;      /* Color when hovering over a link */
+    --text-hover: #d8dee9;     /* Color when hovering over a link */
     --border-color: #4c566a;   /* Subtle outline color */
     
     --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -62,7 +62,7 @@ body {
     background-color: var(--card-bg);
     border: 1px solid var(--border-color);
     border-radius: 2px;
-    padding: .5rem;
+    padding: 0.5rem;
     font-size: 16px;
 }
 
