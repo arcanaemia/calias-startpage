@@ -2,7 +2,7 @@
 :root {
     --bg-color: #1E2229;       /* Dark overall page background */
     --card-bg: #1E2229;        /* Background for link categories */
-    --text-main: #81a1c1;      /* Category title and header color */
+    --text-main: #BCC2CD;      /* Category title and header color */
     --text-link: #BCC2CD;      /* Default link color */
     --text-hover: #88c0d0;     /* Color when hovering over a link */
     --border-color: #454E5E;   /* Subtle outline color */
